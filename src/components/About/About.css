@@ -1,0 +1,182 @@
+#about{
+    width: 100%;
+    height: 45vh;
+    background-color: var(--bgps);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-top: 15px;
+    margin: 0px;
+    border-bottom: 0.1px solid var(--border);
+}
+
+.aboutha p{
+    color: #0f76ca;
+}
+
+.aboutha span {
+    color: rgb(84, 65, 255);
+    font-size: 20px;
+    margin-right: 6px;
+    
+}
+
+.aboutha h3{
+    color: var(--text);
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.aboutha   small{
+    
+    color: var(--small);
+}
+
+
+.aboutha button{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    background-color: #050a1a;
+    border: 1px solid #313647 ;
+    border-radius: 4px;
+    margin-top: 15px;
+    padding: 5px 18px;
+    cursor: pointer;
+}
+
+.container{
+    position: relative;
+    top: 10px;
+    right: 50px;
+    width: 40%;
+    height: 200px;
+    background-color:var(--bgps);
+    filter: contrast(94%);
+    border: 0.1px solid #141a2b ;
+    border-radius: 7px;
+    
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr) ;
+    grid-template-rows: repeat(3,1fr );
+}
+
+.items{
+    padding: 15px 12px;
+    overflow: hidden;
+    
+}
+
+.item1{
+    
+    border-top-left-radius:6px ;
+    border-top:0.1px solid #090e1b ;
+    border-bottom:0.1px solid #141a2b  ;
+}
+.item2{
+    
+    border-top-right-radius:6px ;
+   
+    border-top:0.1px solid #090e1b  ;
+    border-left:0.1px solid #141a2b ;
+    border-bottom:0.1px solid #141a2b  ;
+}
+.item3{
+    
+    border-bottom:0.1px solid #141a2b ;
+}
+.item4{
+    
+    border-left:0.1px solid #141a2b  ;
+    border-bottom:0.1px solid #141a2b  ;
+}
+.item5{
+ 
+    border-bottom-left-radius:6px ;
+    border-bottom:0.1px solid #090e1b  ;
+}
+.item6{
+     border-bottom-right-radius:6px ;
+    border-bottom:0.1px solid #090e1b   ;
+    border-left:0.1px solid #141a2b  ;
+}
+
+.Icons{
+    display: flex;
+    
+    
+    
+}
+
+.Icons i{
+    color: #0f76ca;
+    font-size: 25px;
+    margin-right: 2px;
+}
+
+.Icons p{
+    font-size: 14px;
+   color: var(--text);
+}
+
+.Icons small{
+   color:var(--small);
+   font-Size: 12px;
+   
+}
+
+@media screen and (max-width:767px) {
+    #about{
+    width: 100%;
+    height: 74dvh;
+  
+    flex-direction: column;
+    padding-left: 45px;
+    padding-top: 15px;
+    margin: 0px;
+
+}
+
+.aboutha   small{
+    
+    color: var(--small);
+}
+
+
+.container{
+    top: -25px;
+    left: 0px;
+    width: 75%;
+    height: 200px;
+}
+
+.items{
+    padding: 10px 0px;
+    
+    
+}
+
+
+.Icons i{
+    color: #0f76ca;
+    font-size: 25px;
+    margin-right: px;
+}
+
+.Icons p{
+    font-size: 14px;
+   color: var(--text);
+}
+
+.Icons small{
+   color:var(--small);
+   font-Size: 12px;
+}
+
+.item3{
+    
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+}

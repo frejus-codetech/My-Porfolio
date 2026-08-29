@@ -1,0 +1,603 @@
+
+#home{
+    background-color:var(--bgs);
+    display: flex;
+    width: 100%;
+    height: 54vh;
+    z-index: 1;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 0.1px solid var(--border);
+}
+
+.hertext{
+    background-color: var(--bgs);
+    width: 48%;
+    color:  var(--text);
+    padding: 50px 0px 0px 45px;
+    border: none;
+}
+
+
+.hertext .p1{
+    margin-bottom: 10px;
+    line-height: 1.7;
+    font-size: 1rem;
+  
+}
+
+.hertext .p2{
+    font-size:0.9rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+}
+
+
+.herimage{
+    position: relative;
+    border: none;
+    width: 60%;
+    background-image: url('../../assets/image/ligne.code.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.herimage::before {
+    content: "";
+    position: absolute;
+    background-color:var(--bgs);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: var(--opacity);
+    
+    z-index: 1000;
+}
+
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 2px;
+    padding: 130px;
+    
+    top: 45px;
+    left: 280px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 3000;
+    box-shadow:inset 1px -2px 13px 2px #134dec,
+                -2px -2px 14px 5px #2457ff,
+                3px 2px 5px 1px #eb0163,
+              inset  -1px -4px 8px 1px #d80053  ;
+
+}
+
+.circle img{
+   width: 220px;
+   position: relative;
+   left: -20px;
+   border: none;
+} 
+
+.herbutton{
+    margin-top: 20px;
+    
+}
+
+
+
+.herbutton .button1{
+    background: linear-gradient( 90deg, #05518f, #601a69); 
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px; 
+    margin-right: 15px;
+}
+
+.herbutton .button2{
+    padding: 7px 34px;
+    border: 1px solid #bdbbee3a; 
+    border-radius: 5px;
+    background-color: #010311;
+    color: #fff;
+}
+
+.herbutton button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.herbutton button i{
+    color: #fff;
+    margin-left: 5px;
+}
+
+.hersocial{
+    display: flex;
+    margin-top: 20px;
+}
+
+.hersocial a{
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-right: 12px;
+    border: 1px solid #bdbbee3a;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 5px 7px ;
+    background-color: #3c3c3d3a;
+    cursor: pointer;
+}
+
+.hersocial a i{
+    font-size: 0.8rem;
+    color: var(--text);
+}
+
+@media screen and ( max-width:355px){
+#home{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color:var(--bgs);
+
+    z-index: 1;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 0.1px solid var(--border);
+}
+
+.hertext{
+    background-color: var(--bgs);
+    width: 100%;
+    color: (--text);
+    padding: 50px 0px 0px 45px;
+    margin: 0;
+    height: dvh;
+    border: none;
+    padding-bottom: 11px;
+}
+
+.herimage::before {
+    content: "";
+    position: absolute;
+    background-color:var(--bgs);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: var(--opacity);
+    
+    z-index: 1000;
+}
+
+
+.herimage{
+   position: relative;
+    height: 47.2vh;
+    width: 100%;
+    background-image: url('../../assets/image/ligne.code.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 2px;
+    padding: 110px;
+    
+    top: 35px;
+    left: 75px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 3000;
+    box-shadow:inset 1px -2px 13px 2px #134dec,
+                -2px -2px 14px 5px #2457ff,
+                3px 2px 5px 1px #eb0163,
+              inset  -1px -4px 8px 1px #d80053  ;
+
+}
+
+
+.herbutton{
+    margin-top: 15px;
+    
+}
+
+   .herbutton .button1{
+    padding: 7px 9px; 
+}
+
+.herbutton .button2{
+    padding: 7px 28px;
+}
+
+.herbutton .button1{
+    background: linear-gradient( 90deg, #05518f, #601a69); 
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px; 
+    margin-right: 15px;
+}
+
+.hersocial a i{
+    font-size: 0.8rem;
+    color: var(--text);
+}
+
+
+
+.circle img{
+   width: 175px;
+   position: relative;
+   left: -20px;
+   top: -10px;
+   border: none;
+} }
+
+@media screen and (min-width:356px) and ( max-width:479px){
+#home{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+     background-color:var(--bgs);
+    z-index: 1;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 0.1px solid var(--border);
+}
+
+.hertext{
+    background-color: var(--bgs);
+    width: 100%;
+    color: (--text);
+    padding: 50px 0px 0px 45px;
+    margin: 0;
+    height: dvh;
+    border: none;
+    padding-bottom: 11px;
+}
+
+.hersocial a i{
+    font-size: 0.8rem;
+    color: var(--text);
+}
+
+.herimage::before {
+    content: "";
+    position: absolute;
+    background-color:var(--bgs);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: var(--opacity);
+    
+    z-index: 1000;
+}
+
+.herimage{
+   position: relative;
+    height: 47.2vh;
+    width: 100%;
+    background-image: url('../../assets/image/ligne.code.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 2px;
+    padding: 110px;
+    
+    top: 35px;
+    left: 80px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 3000;
+    box-shadow:inset 1px -2px 13px 2px #134dec,
+                -2px -2px 14px 5px #2457ff,
+                3px 2px 5px 1px #eb0163,
+              inset  -1px -4px 8px 1px #d80053  ;
+
+}
+
+.circle img{
+   width: 175px;
+   position: relative;
+   left: -20px;
+   top: -10px;
+   border: none;
+} }
+
+@media screen and (min-width:480px) and ( max-width:767px){
+#home{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+     overflow: hidden;
+    z-index: 1;
+    padding: 0px 0px 0px 0px;
+    background-color:var(--bgs);
+   border-bottom: 0.1px solid var(--border);
+}
+
+.hertext{
+    background-color: var(--bgs);
+    width: 100%;
+      color: (--text);
+    padding: 50px 0px 0px 45px;
+    margin: 0;
+    height: 58dvh;
+    
+}
+
+
+.herimage{
+   position: relative;
+    height: 47.2vh;
+    width: 100%;
+    background-image: url('../../assets/image/ligne.code.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 2px;
+    padding: 110px;
+    
+    top: 45px;
+    left: 90px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 3000;
+    box-shadow:inset 1px -2px 13px 2px #134dec,
+                -2px -2px 14px 5px #2457ff,
+                3px 2px 5px 1px #eb0163,
+              inset  -1px -4px 8px 1px #d80053  ;
+
+}
+
+.circle img{
+   width: 175px;
+   position: relative;
+   left: -20px;
+   top: -10px;
+   border: none;
+} 
+
+.herimage::before {
+    content: "";
+    position: absolute;
+    background-color:var(--bgs);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: var(--opacity);
+    
+    z-index: 1000;
+}
+
+.hersocial a i{
+    font-size: 0.8rem;
+    color: var(--text);
+}
+}
+
+
+@media screen and (min-width:350px) and ( max-width:479px){
+#home{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color:var(--bgs);
+    z-index: 1;
+    padding: 0px 0px 0px 0px;
+   border-bottom: 0.1px solid var(--border);
+}
+
+.hertext{
+    background-color: var(--bgs);
+    width: 100%;
+     color: (--text);
+    padding: 50px 0px 0px 45px;
+    margin: 0;
+    height: dvh;
+    border: none;
+    padding-bottom: 11px;
+}
+
+
+.herimage{
+   position: relative;
+    height: 47.2vh;
+    width: 100%;
+    background-image: url('../../assets/image/ligne.code.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 2px;
+    padding: 110px;
+    
+    top: 35px;
+    left: 80px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 3000;
+    box-shadow:inset 1px -2px 13px 2px #134dec,
+                -2px -2px 14px 5px #2457ff,
+                3px 2px 5px 1px #eb0163,
+              inset  -1px -4px 8px 1px #d80053  ;
+
+}
+
+.circle img{
+   width: 190px;
+   position: relative;
+   left: -20px;
+   top: 0px;
+   border: none;
+} }
+
+@media screen and (min-width:480px) and ( max-width:767px){
+#home{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+     overflow: hidden;
+     background-color:var(--bgs);
+    z-index: 1;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid var(--border);
+}
+
+.hertext{
+    background-color: var(--bgs);
+    width: 100%;
+      color: (--text);
+    padding: 50px 0px 0px 45px;
+    margin: 0;
+    height: 58dvh;
+    
+}
+
+
+.herimage{
+   position: relative;
+    height: 47.2vh;
+    width: 100%;
+    background-image: url('../../assets/image/ligne.code.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 2px;
+    padding: 110px;
+    
+    top: 45px;
+    left: 90px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 3000;
+    box-shadow:inset 1px -2px 13px 2px #134dec,
+                -2px -2px 14px 5px #2457ff,
+                3px 2px 5px 1px #eb0163,
+              inset  -1px -4px 8px 1px #d80053  ;
+
+}
+
+.circle img{
+   width: 175px;
+   position: relative;
+   left: -20px;
+   top: -10px;
+   border: none;
+} 
+
+
+
+.herimage::before {
+    content: "";
+    position: absolute;
+    background-color:var(--bgs);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: var(--opacity);
+    
+    z-index: 1000;
+}
+}
+
+@media screen and (min-width:768px) and ( max-width:991px){
+    .herbutton .button1{
+    padding: 7px 12px; 
+}
+
+.herbutton .button2{
+    padding: 7px 31px;
+}
+
+.hertext{
+    padding: 30px 0px 0px 45px;
+}
+
+.circle{
+    left: 140px;
+}
+
+
+
+}
+
+
+@media screen and (min-width:992px) and ( max-width:2000px){
+
+    .circle img{
+   width: 230px;
+   position: relative;
+   left: -20px;
+   top: 20px;
+   border: none;
+} 
+
+}

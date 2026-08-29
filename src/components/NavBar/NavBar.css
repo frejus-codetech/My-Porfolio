@@ -1,0 +1,289 @@
+#Navbar{
+    position: sticky;
+    top: -0px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 45px;
+    padding-right: 25px;
+    border-bottom: 0.1px solid var(--border);
+    background-color: var(--bgs);
+    z-index: 5;
+}
+
+.navlogo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navlogo h1 span {
+    font-size: 10px;
+    color: #d947ec;
+    
+}
+.navlink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.navlink nav ul a {
+   text-decoration: none;
+   color: #fff;
+   display: flex;
+   font-weight: 700;
+   justify-content: center;
+   align-items: center;
+   border-radius: 3px;
+   padding: 3px 0px;
+   background-color: var(--bgnvl);
+   
+}
+
+
+
+.navlink nav li {
+    
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 0.8rem;
+    list-style: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 60px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+     transition: background-color 0.s ease-in-out;
+}
+
+.navlink nav li:hover {
+
+    background-color: #dbdad9 ;
+   
+    
+}
+
+.navlink nav li:hover a {
+    color: #000;
+    
+    
+}
+
+.download{
+   
+    margin-right: 20px;
+    border: 1px solid #bdbbee3a;
+    border-radius: 5px;
+    padding: 5px  8px 5px 8px;
+    color: #fff;
+    background-color: #010311;
+}
+
+.download i{
+    margin-right: 5px;
+    margin-left: 0px;
+    padding: 0;
+}
+
+.download a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.theme-toggle{
+    border: 1px solid #bdbbee3a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #010311;
+}
+
+
+
+
+@media screen  and ( max-width:768px) {
+
+    .download{
+    margin-right: 10px;
+    padding: 5px  8px 5px 5px;
+}
+
+.download a{
+    font-size: 0.7rem;
+}
+
+    .navlogo h1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+    .navlink nav li
+    {
+        font-size: 1rem;
+        width: 60px;
+        display: flex;
+        justify-content: center;
+       margin-bottom: 5px;
+       background-color:#2c2b2c;
+        width: 75px;
+       padding: 3px;
+       border-radius: 5px;
+    }
+
+    .navlink{
+        display: none;
+    }
+
+    #Navbar{
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        padding-top: 8px;
+        height: 7vh;
+        position: sticky;
+        top: -1px;
+       
+    }
+
+
+    .menu
+    {
+        position: relative;
+        width: 30px;
+        height: 42px;
+        left: -10px;
+        top: -7px;
+        margin: 0px 0px;
+        padding: 0px;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.5s;
+        -webkit-user-select: none;
+        user-select: none;
+        z-index: 6000;
+        
+    }
+
+
+    .menu::before
+    {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: var(--text);
+        box-shadow: 0px 10px 0px var(--text);
+        transform: translateY(-10px);
+        transition: 0.5s;
+    }
+
+    .menu::after
+    {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: var(--text);
+        transform: translateY(10px);
+        transition: 0.5s;
+    }
+
+    .menu.croix::before
+    {
+       transform: rotate(45deg);
+       box-shadow: 0px 0px 0px var(--text);
+    }
+
+    .menu.croix::after
+    {
+       transform: rotate(-45deg);
+       box-shadow: 0px 0px 0px var(--text);
+    }
+
+    .navlink.redd 
+    {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        position: absolute;
+        right:0%;
+        top: 44px;
+        width:140px;
+        height:33vh ;
+        background-color: #131520;
+        transition: 1s ease-in-out ;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 5px;
+        z-index:4000;
+        animation: ShowEnter 0.7s ease-in-out forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
+        transform: translateX(140px);
+    }
+
+    @keyframes ShowEnter {
+        100%{
+            transition: 0.5s ease-in;
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+    
+
+    .navlink ul{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 23px;
+        animation: ShowEnter 0.5s ease-in-out forwards;
+        animation-delay: 1s;
+    }
+
+    .navlink li{
+        display: flex;
+        justify-content: center;
+       
+       background-color:#2c2b2c;
+        width: 60px;
+       padding: 3px;
+       border-radius: 5px;
+
+       
+    }
+
+    .navlink nav ul a {
+        text-decoration: none;
+        color: #a09e9e;
+        background-color: transparent;
+         padding: 0;
+    }
+
+}
+
+
+@media screen and ( min-width:769px) and (max-width:880px) {
+      #Navbar{
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        padding-top: 8px;
+        height: 7vh;
+        position: sticky;
+        top: -1px;
+    }
+
+        .download{
+    margin-right: 10px;
+    padding: 5px  8px 5px 5px;
+}
+}

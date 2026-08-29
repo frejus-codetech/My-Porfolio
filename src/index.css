@@ -1,0 +1,47 @@
+*  {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+   
+}
+
+:root{
+    --bgs:#010311;
+    --text:#fff;
+    --small:#abb3d6;
+     /*background-color pour li*/
+    --bgnvl:transparent;
+    --cards:#;
+    --border:#0f0f22;
+    --primary:#;
+    --bgps:#050a1a;
+    --bgms:#010713;
+    --opacity:0.9;
+}
+
+html.dark{
+    --bgs:#e4e5fc;
+    --text:#000;
+    --cards:#;
+    --border:#babad1;
+    --primary:#;
+    --bgps:#dbdfee;
+    --bgms:#e3e4f8;
+    --small:#434344;
+
+    /*background-color pour li*/
+    --bgnvl:#464855;
+
+    /*background-color before de image hero */
+     --opacity:0.8;
+}
+
+
+
