@@ -19,18 +19,18 @@ function Handlechange(){
     let luste = document.querySelector('.navlink');
     let menu = document.querySelector('.menu');
     list.forEach(liste => {
-        liste.addEventListener('click', ()=>{
+        liste.onclick = function() {
             if(liste){luste.classList.remove('redd');}
             
             menu.classList.remove('croix');
-        })
-    })
+        }
+    }
 
     
-}
+    )}
 
 function Navbar({darkMode, setDarkMode}) {
-    const [menuOpen, setMenuOpen] = useState(true);
+    const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div id="Navbar">
@@ -48,17 +48,17 @@ function Navbar({darkMode, setDarkMode}) {
             <button className="theme-toggle" onClick={() =>setDarkMode(!darkMode)}><i className="fa-regular fa-moon"></i></button>
         </div>
 
-        <div className="menu" onClick={handleClick}></div>
+        <div className = {menuOpen ? "menu croix" : "menu"} onClick={() => setMenuOpen(!menuOpen)}></div>
 
-        <div className="navlink"  >
+        <div className = {menuOpen ? "navlink redd" : "navlink"}>
            <nav>    
                 <ul className='navigator'>
-                    <li><a href="#home" onClick={Handlechange}>Home</a></li>
-                    <li><a href="#about" onClick={Handlechange}>About</a></li>
-                    <li><a href="#Parcours" onClick={Handlechange}>Journey</a></li>
-                    <li><a href="#skills" onClick={Handlechange}>Skills</a></li>    
-                    <li><a href="#projects" onClick={Handlechange}>Projects</a></li>
-                           <li><a href="#contact" onClick={Handlechange}>Contact</a></li> 
+                    <li><a href="#home" onClick={() => setMenuOpen(false)}>Home</a></li>
+                    <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
+                    <li><a href="#Parcours" onClick={() => setMenuOpen(false)}>Journey</a></li>
+                    <li><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a></li>    
+                    <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
+                           <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li> 
                 </ul>
            </nav>
         
