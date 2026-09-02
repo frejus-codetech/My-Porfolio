@@ -207,7 +207,7 @@
 
 }
 
-@media screen and (min-width:399px)  and (max-width:600px) {
+@media screen and (min-width:399px)  and (max-width:740px) {
     
     #contact{
     padding-left: 45px;
@@ -217,7 +217,7 @@
     width: 100%;
     min-height:80vh !important;
      border-bottom: 0.1px solid var(--border);
-    display: flex;
+    display: flex; 
     flex-direction: column;
 }
 

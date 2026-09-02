@@ -126,7 +126,7 @@
    
 }
 
-@media screen and (max-width:767px) and (max-height:667px){
+@media screen and (max-width:767px) and (max-height:740px){
     #about{
     width: 100%;
     min-height: 70vh;
