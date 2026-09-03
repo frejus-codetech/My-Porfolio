@@ -266,7 +266,7 @@
 
 
 
-@media screen and (min-width:350px) and ( max-width:479px) and (max-height:740px){
+@media screen and (min-width:350px) and ( max-width:479px) and (max-height:650px){
 #home{
   
     display: flex;
@@ -464,6 +464,85 @@
 
 
 /*hauteur*/
+
+@media screen and (min-width:350px) and ( max-width:479px) and (min-height:700px) and (max-height:760px){
+#home{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 618px !important;
+    background-color:var(--bgs);
+    z-index: 1;
+    padding: 0px 0px 0px 0px;
+   border-bottom: 0.1px solid var(--border);
+  overflow: hidden;
+}
+
+.hertext{
+    background-color: var(--bgs);
+    width: 100%;
+     color: (--text);
+    padding: 20px 0px 0px 45px;
+    margin: 0;
+    height: dvh;
+    border: none;
+    padding-bottom: 11px;
+}
+
+
+.herimage{
+   position: relative;
+    
+    width: 100%;
+    background-image: url('../../assets/image/ligne.code.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+     overflow-y: scroll;
+    z-index: 1;
+}
+
+
+
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 2px;
+    padding: 110px;
+    top: 60px !important;
+    left: 80px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 3000;
+    box-shadow:inset 1px -2px 13px 2px #134dec,
+                -2px -2px 14px 5px #2457ff,
+                3px 2px 5px 1px #eb0163,
+              inset  -1px -4px 8px 1px #d80053  ;
+}
+
+.herimage::before {
+    content: "";
+    position: absolute;
+    background-color:var(--bgs);
+    width: 100%;
+    min-height: 45vh !important;
+    top: 0;
+    bottom: 0;
+    opacity: var(--opacity);
+    z-index: 1000;
+}
+
+.circle img{
+   width: 200px;
+   height:40vh ;
+   position: relative;
+   left: -15px;
+   top: 0px;
+   border: none;
+} }
 
 
 

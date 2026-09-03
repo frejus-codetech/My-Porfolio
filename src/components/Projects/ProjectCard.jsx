@@ -16,9 +16,9 @@ function Project() {
             </div>
         
             <div className='carts'>
-                <div className='cart' data-aos="fade-up">
+                <div className='cart' data-aos="flip-down">
                     <img src={Travel} alt=""/>
-                    <p>TravelAgency</p>
+                    <p>TravelAgency</p> 
                     <div className='tech'>
                         <span>HTML</span>
                         <span>CSS</span>
@@ -30,7 +30,7 @@ function Project() {
                     </div>
                 </div>
                 
-                <div className='cart' data-aos="fade-up">
+                <div className='cart' data-aos="flip-down">
                     <img src={Fanta} alt=""/>
                     <p>FantaPage</p>
                     <div className='tech'>
@@ -44,7 +44,7 @@ function Project() {
                     </div>
                 </div>
 
-                  <div className='cart' data-aos="fade-up">
+                  <div className='cart' data-aos="flip-down">
                     <img src={ToDo} alt=""/>
                     <p>Todo List</p>
                     <div className='tech'>
@@ -58,7 +58,7 @@ function Project() {
                     </div>
                 </div>
 
-                <div className='cart' data-aos="fade-up">
+                <div className='cart' data-aos="flip-down">
                     <img src={Porfolio} alt=""/>
                     <p>PorfolioModel</p>
                     <div className='tech'>
