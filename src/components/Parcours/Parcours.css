@@ -50,7 +50,7 @@
     border-radius: 30px;
     border-radius: 30px; 
     z-index: 1;
-    height: 60vh;
+    height: 65vh;
 }
 
 .left{
@@ -162,7 +162,7 @@
      #Parcours{
     border-bottom: 0.1px solid var(--border);
     width: 100%;
-    min-height: 90vh !important;
+    min-height: 85vh !important;
     background-color:  var(--bgms);
     color: #fff;
     padding-left: 15px;
@@ -454,7 +454,7 @@
      #Parcours{
     border-bottom: 0.1px solid var(--border);
     width: 100%;
-    height: 80vh !important;
+    height: 81vh !important;
     background-color:  var(--bgms);
     color: #fff;
     padding-left: 15px;
@@ -588,7 +588,7 @@
     border-radius: 30px;
     border-radius: 30px; 
     z-index: 1;
-    height: 65vh;
+    height: 61vh;
     
 }
 
@@ -619,7 +619,7 @@
  #Parcours{
     border-bottom: 0.1px solid var(--border);
     width: 100%;
-    height: 75vh;
+    height: 71vh;
     background-color: var(--bgms);
     color: #fff;
     padding-left: 45px;
@@ -633,7 +633,7 @@
  #Parcours{
     border-bottom: 0.1px solid var(--border) !important;
     width: 100%;
-    height: 85vh !important;
+    height: 80vh !important;
    
  }
 }

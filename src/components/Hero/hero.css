@@ -3,8 +3,8 @@
     background-color:var(--bgs);
     display: flex;
     width: 100%;
-    height: 55vh !important ;
-    min-height: 30vh;
+    
+    min-height: 35vh !important;
     z-index: 1;
     padding: 0px 0px 0px 0px;
     border-bottom: 0.1px solid var(--border);
@@ -150,7 +150,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 95vh !important;
+    height: 93vh !important;
     background-color:var(--bgs);
 
     z-index: 1;
@@ -388,7 +388,7 @@
     width: 230px;
     height: 2px;
     padding: 110px;
-    top: 45px;
+    top: 46px;
     left: 90px;
     border: 3px solid #fff;
     border-radius: 50%;
@@ -400,7 +400,7 @@
 }
 
 .circle img{
-   width: 175px;
+   width: 179px;
    position: relative;
    left: -20px;
    top: -10px;
@@ -437,6 +437,13 @@
 .circle{
     left: 140px;
 }
+
+#home{
+ 
+    height:53vh !important;
+}
+
+
 }
 
 
@@ -452,7 +459,7 @@
 
 #home{
  
-    height:48vh !important;
+    height:53vh !important;
 }
 
 .circle{
@@ -817,7 +824,7 @@
 }
 }
 
-@media screen and (min-width:768px) and ( max-width:479px)and (min-height:700px) and (max-height:990px){
+@media screen and (min-width:768px) and ( max-width:991px) and (min-height:990px){
     .herbutton .button1{
     padding: 7px 12px; 
 }
