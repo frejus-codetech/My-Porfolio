@@ -465,7 +465,7 @@
 
 /*hauteur*/
 
-@media screen and (min-width:350px) and ( max-width:479px) and (min-height:700px) and (max-height:760px){
+@media screen and (min-width:350px) and ( max-width:700px) and (min-height:700px) and (max-height:760px){
 #home{
   
     display: flex;
