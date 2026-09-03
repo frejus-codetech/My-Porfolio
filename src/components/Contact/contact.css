@@ -494,7 +494,7 @@
 }
 }
 
-@media screen and (min-width:340px) and ( max-width:700px) and (min-height:800px) and (max-height:990px){
+@media screen and (min-width:340px) and ( max-width:700px) and (min-height:800px) and (max-height:956px){
     
     #contact{
     padding-left: 45px;
@@ -572,7 +572,7 @@
 }
 }
 
-@media screen  and (max-width:767px) and ( max-height:897px) {
+@media screen  and (max-width:767px) and ( max-height:990px) {
 
     #contact{
     padding-left: 45px;
