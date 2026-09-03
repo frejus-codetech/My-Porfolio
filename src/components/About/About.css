@@ -46,7 +46,7 @@
     cursor: pointer;
 }
 
-.container{
+.containers{
     position: relative;
     top: 10px;
     right: 50px;
@@ -144,7 +144,7 @@
 }
 
 
-.container{
+.containers{
     top: -18px;
     left: 0px;
     width: 75%;
@@ -205,11 +205,11 @@
 }
 
 
-.container{
+.containers{
     top: -18px;
     left: 0px;
-    width: 75%;
-    height: 200px;
+    width: 75% ;
+    height: 200px ;
     margin-top: 5px;
     
 }
@@ -262,11 +262,11 @@
 }
 
 
-.container{
+.containers{
     top: -18px;
     left: 0px;
-    width: 75%;
-    height: 200px;
+    width: 75% !important;
+    height: 200px !important;
     margin-top: 5px;
 }
 

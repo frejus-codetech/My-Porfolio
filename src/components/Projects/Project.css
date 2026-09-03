@@ -290,7 +290,7 @@
 
 .cart{
     display: flex;
-    width: 150px !important;
+    width: 160px !important;
     min-height: 26vh !important;
     background-color: #010311;
     flex-direction: column;

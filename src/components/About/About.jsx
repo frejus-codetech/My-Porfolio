@@ -11,7 +11,7 @@ function About() {
             </small>
             
         </div>
-        <div className='container' data-aos="fade-up">
+        <div className='containers' data-aos="fade-up">
             <div className='items item1'>
               
               <div className='Icons'>
