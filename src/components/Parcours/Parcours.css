@@ -510,7 +510,7 @@
     top: -8px;
     background-color: inherit;
     border: none;
-    background-color: #601a69;
+    background-color: transparent;
     
     z-index: 1;
  }
