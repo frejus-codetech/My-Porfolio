@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import React from 'react'
 import './NavBar.css'
-import curriculum from '../../assets/document/CV_Porfolio.pdf'
+import curriculum from '../../assets/document/CV-Myportfolio.pdf'
 
 function handleClick(){
     let menu = document.querySelector('.menu');

@@ -24,6 +24,8 @@ html {
     --bgps:#050a1a;
     --bgms:#010713;
     --opacity:0.9;
+    --bgdwnlicon:#fff ;
+    --colicdark:#010311;
 }
 
 html.dark{
@@ -41,6 +43,11 @@ html.dark{
 
     /*background-color before de image hero */
      --opacity:0.8;
+
+     /*background-color pour li download icon*/
+      --bgdwnlicon:#010311 ;
+
+      --colicdark:#fff;
 }
 
 

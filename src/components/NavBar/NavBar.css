@@ -10,7 +10,7 @@
     padding-right: 25px;
     border-bottom: 0.1px solid var(--border);
     background-color: var(--bgs);
-    z-index: 5;
+    z-index: 8000;
 }
 
 .navlogo h1 {
@@ -91,15 +91,17 @@
 .download a{
     text-decoration: none;
     color: #fff;
+   
 }
 
 .theme-toggle{
     border: 1px solid #bdbbee3a;
-    padding: 5px 10px;
+    padding: 3px 10px;
     border-radius: 5px;
     cursor: pointer;
-    color: #fff;
-    background-color: #010311;
+    color: var(--colicdark);
+    background-color: var(--bgdwnlicon);
+    font-size: 0.8rem;
 }
 
 
