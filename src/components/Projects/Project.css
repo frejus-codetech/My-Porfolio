@@ -303,7 +303,7 @@
 
 #projects{
     width: 100%;
-    min-height: 75vh !important;
+    min-height: 78vh !important;
     background-color: var(--bgps);
     display: flex;
     justify-content: space-between;
