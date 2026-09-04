@@ -291,7 +291,7 @@
 .cart{
     display: flex;
     width: 170px !important;
-    min-height: 26vh !important;
+    min-height: 27vh !important;
     background-color: #010311;
     flex-direction: column;
     filter:contrast(88%);
@@ -303,7 +303,7 @@
 
 #projects{
     width: 100%;
-    min-height: 71vh !important;
+    min-height: 72vh !important;
     background-color: var(--bgps);
     display: flex;
     justify-content: space-between;
