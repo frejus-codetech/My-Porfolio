@@ -291,7 +291,7 @@
 .cart{
     display: flex;
     width: 170px !important;
-    height: 30vh !important;
+    height: 28vh !important;
     background-color: #010311;
     flex-direction: column;
     filter:contrast(88%);
