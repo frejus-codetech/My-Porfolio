@@ -19,7 +19,7 @@ function Parcours() {
 
             <div className="container right" data-aos="fade-left">
                 <div className="content">
-                    <h1>Baccalauréat, Série D</h1>
+                    <h1 style={{ color: '#703d3d' }}>Baccalauréat, Série D</h1>
                     <p>Début des études en Sociologie-Anthropoogie</p>
                 </div>
             </div>
@@ -33,7 +33,7 @@ function Parcours() {
 
             <div className="container right" data-aos="fade-left">
                 <div className="content">
-                    <h1>Frontend & Base de donnée</h1>
+                    <h1 style={{ color: '#703d3d' }}>Frontend & Base de donnée</h1>
                     <p>Initiation à l'apprentissge du developpement web <br />
                     avec une formation en autodidacte
                     </p>
@@ -49,7 +49,7 @@ function Parcours() {
 
             <div className="container right" data-aos="fade-left">
                 <div className="content">
-                    <h1>Backend</h1>
+                    <h1 style={{ color: '#703d3d' }}>Backend</h1>
                     <p>Progression avec la réalisation de nombreux projets web  <br />
                       client-side  et aussi des projets web serveur-side
                     </p>
@@ -65,7 +65,7 @@ function Parcours() {
 
             <div className="container right" data-aos="fade-left">
                 <div className="content">
-                    <h1>Cursus & Dev Full-Stack</h1>
+                    <h1 style={{ color: '#703d3d' }}>Cursus & Dev Full-Stack</h1>
                     <p>→3ᵉ année en Sociologie-Anthropologie <br />
                         →Construction d'un profil Full-Stack
                     </p>
