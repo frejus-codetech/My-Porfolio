@@ -9,7 +9,7 @@ import Skills from './components/Skills/Skills';
 import Project from './components/Projects/ProjectCard.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Footer from './components/Footer/Footer.jsx'
-
+import viewport from './components/viewport/viewport.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,7 +38,7 @@ function App() {
         <Project /> 
         <Contact/>
         <Footer/>
-      
+        <viewport/> 
     </>
   )
   
