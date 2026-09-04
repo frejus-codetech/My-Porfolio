@@ -532,7 +532,7 @@
     padding-bottom:15px ;
     background-color: var(--bgms);
     width: 100%;
-    min-height:72vh !important;
+    min-height:71vh !important;
     border-bottom: 0.1px solid #0f0f22;
     display: flex;
     flex-direction: column;
