@@ -267,7 +267,7 @@
 /*Hauteur 950px*/
 
 
-@media screen and (min-width:340px) and ( max-width:700px) and (min-height:675px) and (max-height:760px) {
+@media screen and (min-width:320px) and ( max-width:700px) and (min-height:675px) and (max-height:760px) {
    .carts{
     display: grid;
     
